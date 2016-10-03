@@ -1,0 +1,108 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-image: url(images/bg.jpg);
+  background-size: 100%;
+  padding: 20rpx;
+} 
+
+.top {
+
+  flex-direction: row;
+}
+
+.top view {
+
+  color: #fff;
+  text-align: right;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+
+.topRegion {
+  padding-top: 50rpx;
+  height:100rpx;
+  vertical-align: bottom;
+}
+
+.topRegion #temperature {
+  color:#fff;
+  float: left;
+  font-size: 120rpx;
+
+}
+
+.topRegion #summary {
+
+  color:#FFF;
+  margin-left: 30rpx;
+  margin-top: 55rpx;
+  font-size: 50rpx;
+  float: left;    
+
+}
+
+.topRegion text {
+  display: block;
+  float: left;
+  width: 250rpx;
+  text-align: center;  
+}
+
+.summary {
+
+  margin-top: 50rpx;
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 18rpx;
+  color: #eee;
+  font-size: 30rpx;
+  line-height: 50rpx;
+
+}
+
+.daily {
+
+  margin-top: 30rpx;
+  padding: 12rpx;
+  background-color:rgba(0, 0, 0, 0.5);
+
+}
+
+.daily_item {
+
+  float:left;
+  width:100%;
+  color: #FFF;  
+  height:80rpx;
+  padding-left: 20rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+
+}
+
+.daily_weekday {
+  
+  display: block;
+  float: left;     
+  width: 90rpx;
+}
+
+.daily_temperature {
+  
+  float: left;
+  display: block;  
+  width: 150rpx;
+  margin-right: 80rpx;
+  text-align: right;
+
+}
+
+.daily_summary {
+  
+  float: left;
+  display: block;  
+
+}
